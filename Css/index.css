@@ -18,15 +18,15 @@ body {
 
 /* Stile per dispositivi mobili */
 .error-code {
-    font-size: 2rem;
+    font-size: 3rem; /* Dimensione più grande anche per mobile */
     font-weight: bold;
     color: #ff4040;
 }
 
 .error-message {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Dimensione più grande anche per mobile */
     margin-top: 10px;
-    color:  #ff4040;
+    color: #666;
 }
 
 /* Stile per dispositivi desktop */
