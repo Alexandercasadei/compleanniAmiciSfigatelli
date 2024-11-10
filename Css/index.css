@@ -10,17 +10,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: black;
     color: #333;
     text-align: center;
 }
 
-.container {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
 
 /* Stile per dispositivi mobili */
 .error-code {
@@ -32,7 +26,7 @@ body {
 .error-message {
     font-size: 1rem;
     margin-top: 10px;
-    color: #666;
+    color:  #ff4040;
 }
 
 /* Stile per dispositivi desktop */
