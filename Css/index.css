@@ -26,7 +26,7 @@ body {
 .error-message {
     font-size: 2rem; /* Dimensione più grande anche per mobile */
     margin-top: 10px;
-    color: #666;
+    color: #ff4040;
 }
 
 /* Stile per dispositivi desktop */
