@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #00ffee78; /* Light blue background */
+  background-color: #00ffee78;
   text-align: center;
 }
 
@@ -8,13 +8,13 @@ h1 {
   font-size: 48px;
   margin-top: 50px;
   margin-bottom: 20px;
-  color: #ff0000; /* Red text color */
+  color: #ff0000;
 }
 
 #countdown {
   font-size: 64px;
   font-weight: bold;
-  color: #333; /* Dark gray text color */
+  color: #333;
   margin-bottom: 50px;
 }
 
@@ -22,13 +22,13 @@ h1 {
   display: inline-block;
   min-width: 80px;
   padding: 10px;
-  background-color: #4dff00; /* Light green background */
+  background-color: #4dff00;
   border-radius: 5px;
-  box-shadow: 0 0 20px firebrick; /* Red shadow */
+  box-shadow: 0 0 20px firebrick;
   margin: 0 10px;
+  color: #fff; /* Qui abbiamo cambiato il colore del testo in bianco */
 }
 
 #countdown span.num {
-  background-color: #840058; /* Dark purple background */
-  color: #FFF; /* White text color */
+  background-color: #840058;
 }
