@@ -18,13 +18,13 @@ body {
 
 /* Stile per dispositivi mobili */
 .error-code {
-    font-size: 3rem; /* Dimensione più grande anche per mobile */
+    font-size: 4rem; /* Dimensione più grande anche per mobile */
     font-weight: bold;
     color: #ff4040;
 }
 
 .error-message {
-    font-size: 1.5rem; /* Dimensione più grande anche per mobile */
+    font-size: 2rem; /* Dimensione più grande anche per mobile */
     margin-top: 10px;
     color: #666;
 }
