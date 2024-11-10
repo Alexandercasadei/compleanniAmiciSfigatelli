@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errore 404</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: black;
+            color: #333;
+            text-align: center;
+        }
+
+       
+
+        /* Stile per dispositivi mobili */
+        .error-code {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff4040;
+        }
+
+        .error-message {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #ff4040;
+        }
+
+        /* Stile per dispositivi desktop */
+        @media (min-width: 768px) {
+            .error-code {
+                font-size: 4rem;
+            }
+
+            .error-message {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">Errore 404</div>
+        <div class="error-message">Pagina del sito non esistente</div>
+    </div>
+</body>
+</html>
