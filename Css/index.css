@@ -28,3 +28,14 @@ body {
     margin-top: 10px;
     color:  #ff4040;
 }
+
+/* Stile per dispositivi desktop */
+@media (min-width: 768px) {
+    .error-code {
+        font-size: 4rem;
+    }
+
+    .error-message {
+        font-size: 2rem;
+    }
+}
