@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista dei compleanni</title>
-</head>
 <style>
     /* Stile di base della pagina */
     body {
@@ -79,14 +78,46 @@
         font-size: 16px;
       }
     }
-/* Aggiunta animazione agli elementi della lista */
+/* Animazione del contenitore */
+.container {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 0.8s ease forwards;
+}
+
+/* Animazione del titolo con dimensione ridotta */
+h1 {
+  font-size: 22px; /* Dimensione ridotta del titolo */
+  opacity: 0;
+  transform: translateY(20px) scale(0.9);
+  animation: zoomIn 0.8s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* Animazione degli elementi della lista */
 li {
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeInUp 0.6s ease forwards;
 }
 
-/* Definizione dell'animazione per l'effetto di apparizione */
+/* Definizione dell'animazione per il contenitore */
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Definizione dell'animazione per il titolo */
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Definizione dell'animazione per gli elementi della lista */
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -94,53 +125,55 @@ li {
   }
 }
 
-/* Ritardo per ogni elemento della lista, per un effetto graduale */
+/* Ritardo per gli elementi della lista, per effetto a cascata */
 li:nth-child(1) {
-  animation-delay: 0.1s;
-}
-li:nth-child(2) {
-  animation-delay: 0.2s;
-}
-li:nth-child(3) {
-  animation-delay: 0.3s;
-}
-li:nth-child(4) {
-  animation-delay: 0.4s;
-}
-li:nth-child(5) {
   animation-delay: 0.5s;
 }
-li:nth-child(6) {
+li:nth-child(2) {
   animation-delay: 0.6s;
 }
-li:nth-child(7) {
+li:nth-child(3) {
   animation-delay: 0.7s;
 }
-li:nth-child(8) {
+li:nth-child(4) {
   animation-delay: 0.8s;
 }
-li:nth-child(9) {
+li:nth-child(5) {
   animation-delay: 0.9s;
 }
-li:nth-child(10) {
+li:nth-child(6) {
   animation-delay: 1s;
 }
-li:nth-child(11) {
+li:nth-child(7) {
   animation-delay: 1.1s;
 }
-li:nth-child(12) {
+li:nth-child(8) {
   animation-delay: 1.2s;
+}
+li:nth-child(9) {
+  animation-delay: 1.3s;
+}
+li:nth-child(10) {
+  animation-delay: 1.4s;
+}
+li:nth-child(11) {
+  animation-delay: 1.5s;
+}
+li:nth-child(12) {
+  animation-delay: 1.6s;
 }
 
   </style>
+</head>
+
 <body>
 
   <div class="container">
     <h1>Lista dei Compleanno</h1>
     <ul>
-      <li><a href="compleannoshadow.html">Shadow</a></li>
-      <li><a href="compleannoanto.html">Antonio</a></li>
       <li><a href="compleannogiuse.html">Giuse</a></li>
+      <li><a href="compleannoanto.html">Antonio</a></li>
+      <li><a href="compleannoshadow.html">Alessio</a></li>
       <li><a href="compleannodario.html">Dario</a></li>
       <li><a href="compleannoleonardo.html">Leonardo C.</a></li>
       <li><a href="compleannomatteo.html">Matteo</a></li>
