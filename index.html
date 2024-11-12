@@ -3,13 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista dei compleanni</title>
+  <title>Lista dei compleanni </title>
+  <style>
+    /* Stile di base della pagina */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1b1f2b;
+      color: #e0e6ed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Contenitore centrale */
+    .container {
+      background-color: #2c3243;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      width: 350px;
+      max-width: 90%;
+    }
+
+    /* Titolo */
+    h1 {
+      font-size: 26px;
+      text-align: center;
+      color: #62a0ea;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #3a3f51;
+      padding-bottom: 10px;
+    }
+
+    /* Stile della lista */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* Stile dei link */
+    a {
+      text-decoration: none;
+      color: #62a0ea;
+      font-size: 18px;
+      padding: 12px;
+      display: block;
+      text-align: center;
+      border-radius: 6px;
+      transition: 0.3s;
+      background-color: #333a4d;
+    }
+
+    a:hover {
+      background-color: #62a0ea;
+      color: #ffffff;
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(98, 160, 234, 0.3);
+    }
+
+    /* Effetti per dispositivi mobili */
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 22px;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
-<link rel="stylesheet" href="Css/index.css">
 <body>
 
   <div class="container">
-    <h1>Lista dei Compleanni</h1>
+    <h1>Lista dei Compleanno</h1>
     <ul>
       <li><a href="compleannoshadow.html">Shadow</a></li>
       <li><a href="compleannoanto.html">Antonio</a></li>
@@ -25,6 +99,7 @@
       <li><a href="compleannoleonardo2.html">Leonardo V.</a></li>
     </ul>
   </div>
+
 
 </body>
 </html>
