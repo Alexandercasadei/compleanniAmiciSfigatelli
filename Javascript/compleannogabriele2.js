@@ -1,5 +1,5 @@
 
-		var countDownDate = new Date("december 21, 2024 00:00:00").getTime();
+		var countDownDate = new Date("march 3, 2024 00:00:00").getTime();
 
 
 		var x = setInterval(function() {
@@ -23,6 +23,6 @@
 			if (distance < 0) {
 				clearInterval(x);
 				document.getElementById("countdown").innerHTML = "Countdown finito auguri Gabriele";
-				countDownDate = new Date("december 21, " + (new Date().getFullYear() + 1) + " 00:00:00").getTime(); // Set the date for next year's countdown
+				countDownDate = new Date("march 3, " + (new Date().getFullYear() + 1) + " 00:00:00").getTime(); // Set the date for next year's countdown
 			}
 		}, 1000);
