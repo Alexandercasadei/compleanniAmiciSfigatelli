@@ -31,12 +31,13 @@ h1 {
     box-shadow: 0 0 22px #596176;
     margin: 0 10px;
     transform: translateY(20px);
-    animation: fadeUp 1.2s ease-out forwards 0.8s;
 }
 
 #countdown span.num {
     background-color: #2a3b6a;
     color: #62a0ea;
+    opacity: 0;
+    animation: fadeUp 1.2s ease-out forwards;
 }
 
 /* Animations */
