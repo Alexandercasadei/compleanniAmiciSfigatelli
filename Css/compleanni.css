@@ -9,13 +9,13 @@
 			font-size: 48px;
 			margin-top: 50px;
 			margin-bottom: 20px;
-			color: #ff0000;
+			color: white;
 		}
 		
 		#countdown {
 			font-size: 64px;
 			font-weight: bold;
-			color: #333;
+			color: #62a0ea;
 			margin-bottom: 50px;
 		}
 		
@@ -23,13 +23,13 @@
 			display: inline-block;
 			min-width: 80px;
 			padding: 10px;
-			background-color: #4dff00;
+			background-color: rgb(51, 58, 77);
 			border-radius: 5px;
 			box-shadow: 0 0 20px firebrick;
 			margin: 0 10px;
 		}
 		
 		#countdown span.num {
-			background-color: #840058;
-			color: #FFF;
+			background-color: rgb(51, 58, 77);
+			color: #62a0ea;
     }
