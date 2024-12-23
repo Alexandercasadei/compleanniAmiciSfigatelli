@@ -23,13 +23,13 @@
 			display: inline-block;
 			min-width: 80px;
 			padding: 10px;
-			background-color: rgb(51, 58, 77);
+			background-color: rgb(32 40 61);
 			border-radius: 5px;
-			box-shadow: 0 0 20px firebrick;
+			box-shadow: 0 0 22px #596176;
 			margin: 0 10px;
 		}
 		
 		#countdown span.num {
-			background-color: rgb(51, 58, 77);
+			background-color: #2a3b6a;
 			color: #62a0ea;
     }
