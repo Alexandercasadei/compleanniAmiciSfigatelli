@@ -1,35 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1f2b;
+    text-align: center;
+}
 
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #1b1f2b;
-			text-align: center;
-		}
-		
-		h1 {
-			font-size: 48px;
-			margin-top: 50px;
-			margin-bottom: 20px;
-			color: #62a0ea;
-		}
-		
-		#countdown {
-			font-size: 64px;
-			font-weight: bold;
-			color: #62a0ea;
-			margin-bottom: 50px;
-		}
-		
-		#countdown span {
-			display: inline-block;
-			min-width: 80px;
-			padding: 10px;
-			background-color: rgb(32 40 61);
-			border-radius: 5px;
-			box-shadow: 0 0 22px #596176;
-			margin: 0 10px;
-		}
-		
-		#countdown span.num {
-			background-color: #2a3b6a;
-			color: #62a0ea;
+h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #62a0ea;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+#countdown {
+    font-size: 64px;
+    font-weight: bold;
+    color: #62a0ea;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: slideIn 1.5s ease-out forwards 0.5s;
+}
+
+#countdown span {
+    display: inline-block;
+    min-width: 80px;
+    padding: 10px;
+    background-color: rgb(32 40 61);
+    border-radius: 5px;
+    box-shadow: 0 0 22px #596176;
+    margin: 0 10px;
+    transform: translateY(20px);
+    animation: fadeUp 1.2s ease-out forwards 0.8s;
+}
+
+#countdown span.num {
+    background-color: #2a3b6a;
+    color: #62a0ea;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
